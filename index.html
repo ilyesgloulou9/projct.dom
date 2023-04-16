@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="CodeHim" />
+    <link rel="icon" type="image/png" href="./img/shop.png" />
+    <title>zenb3 win yetbe3</title>
+    <!-- Bootstrap stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- fontawsome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- card container -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
+            <h4 class="badge-pill badge-light mt-3 mb-3 p-2 text-center">
+              Products
+            </h4>
+            <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+                <div class="shadow-sm card mb-3 product">
+                  <img
+                    class="product-img"
+                    src="images (3).jfif"
+                    alt="prd1"
+                    onmouseover="animateImg(this)"
+                    onmouseout="normalImg(this)"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title text-info bold product-name">
+                      Rock Island armory Al22M
+                    </h5>
+                    <p class="card-text text-success product-price">1100 DT.</p>
+                    <button
+                      class="btn badge badge-pill badge-secondary mt-2 float-right"
+                      type="button"
+                      data-action="add-to-cart"
+                    >
+                      Add to cart
+                    </button>
+                    <button id="heart-button" class="heart">
+                      <i class="fa fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+                <div class="shadow-sm card mb-3 product">
+                  <img
+                    class="product-img"
+                    src="images (2).jfif"
+                    alt="prd2"
+                    onmouseover="animateImg(this)"
+                    onmouseout="normalImg(this)"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title text-info product-name">
+                      GLOCK G43X Subcompact
+                    </h5>
+                    <p class="card-text text-success product-price">900 DT.</p>
+                    <button
+                      class="btn badge badge-pill badge-secondary mt-2 float-right"
+                      type="button"
+                      data-action="add-to-cart"
+                    >
+                      Add to cart
+                    </button>
+                    <button id="heart-button2" class="heart">
+                      <i class="fa fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+                <div class="shadow-sm card mb-3 product">
+                  <img
+                    class="product-img"
+                    src="téléchargement.jfif"
+                    alt="prd3"
+                    onmouseover="animateImg(this)"
+                    onmouseout="normalImg(this)"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title text-info product-name">Pistol - Wikipedia</h5>
+                    <p class="card-text text-success product-price">950 DT.</p>
+                    <button
+                      class="btn badge badge-pill badge-secondary mt-2 float-right"
+                      type="button"
+                      data-action="add-to-cart"
+                    >
+                      Add to cart
+                    </button>
+                    <button id="heart-button3" class="heart">
+                      <i class="fa fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
+            <h4 class="badge-pill badge-light mt-3 mb-3 p-2 text-center">
+              Cart
+            </h4>
+            <div class="cart"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- footer for credit  -->
+    <footer class="credit">Design by : si ilyes.gloulou</footer>
+    <!-- javascript link -->
+    <script src="./main.js"></script>
+  </body>
+</html>
